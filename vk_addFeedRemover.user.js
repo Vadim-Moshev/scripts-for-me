@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         adFeedsRemover
-// @version      1
+// @version      1.1
 // @description  try to take over the world!
 // @author       Vadim Moshev
-// @include      *vk.com
+// @include      *vk.com/feed
 // @downloadURL  https://github.com/Vadim-Moshev/scripts-for-me/raw/master/vk_addFeedRemover.user.js
 
 // ==/UserScript==

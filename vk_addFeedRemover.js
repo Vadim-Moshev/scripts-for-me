@@ -4,7 +4,7 @@
 // @description  try to take over the world!
 // @author       Vadim Moshev
 // @include      *vk.com
-// @downloadURL  https://raw.githubusercontent.com/Vadim-Moshev/scripts-for-me/master/vk_addFeedRemover.js
+// @downloadURL  https://github.com/Vadim-Moshev/scripts-for-me/raw/master/vk_addFeedRemover.js
 
 // ==/UserScript==
 

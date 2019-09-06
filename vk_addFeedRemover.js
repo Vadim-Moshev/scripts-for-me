@@ -3,7 +3,9 @@
 // @version      1
 // @description  try to take over the world!
 // @author       Vadim Moshev
-// @include      *vk.com/feed
+// @include      *vk.com
+// @downloadURL  https://raw.githubusercontent.com/Vadim-Moshev/scripts-for-me/master/vk_addFeedRemover.js
+
 // ==/UserScript==
 
 (function() {
@@ -11,7 +13,8 @@
 
     const PHRASES = [
       'Рекламная запись',
-      'Promoted post'
+      'Promoted post',
+      'Ad'
     ];
 
     function removeAdFeeds() {

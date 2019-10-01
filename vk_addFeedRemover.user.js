@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         adFeedsRemover
-// @version      1.4
+// @version      1.5
 // @description  try to take over the world!
 // @author       Vadim Moshev
 // @include      *vk.com*
@@ -48,7 +48,7 @@
           continue
         }
 
-        let phrase = descriptionBlock.textContent;
+        let phrase = descriptionBlock.childNodes[0].textContent;
         if (PHRASES.includes(phrase)) {
           curr.remove()
         }

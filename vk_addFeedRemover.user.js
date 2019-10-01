@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         adFeedsRemover
-// @version      1.1
+// @version      1.2
 // @description  try to take over the world!
 // @author       Vadim Moshev
 // @include      *vk.com/feed
@@ -18,17 +18,10 @@
     ];
 
     function removeAdFeeds() {
-      let feedRow = document.querySelectorAll('#feed_rows .feed_row');
+      const adBlocks = document.querySelectorAll('[id^="ads_ad_box_ad_"]');
 
-      for (let i = 0; i < feedRow.length; i++) {
-        let linkWithAdCaption = feedRow[i].querySelector('.post_date a');
-        if (!linkWithAdCaption) {
-          continue;
-        }
-
-        if (PHRASES.includes(linkWithAdCaption.innerHTML)) {
-          feedRow[i].remove();
-        }
+      for (let i = adBlocks.length - 1; i >= 0; i--) {
+        adBlocks[i].remove()
       }
     }
 

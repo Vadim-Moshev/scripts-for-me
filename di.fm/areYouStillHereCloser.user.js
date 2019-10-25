@@ -2,6 +2,7 @@
 // @name         Закрыватель панели 'Are you still here?' на DI.FM
 // @namespace    https://www.di.fm/
 // @version      1
+// @updateURL    https://github.com/Vadim-Moshev/scripts-for-me/raw/master/di.fm/areYouStillHereCloser.user.js
 // @description  Закрывает панель 'Are you still here?'
 // @author       Vadim Moshev
 // @include      https://www.di.fm/*
